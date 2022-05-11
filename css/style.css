@@ -247,3 +247,39 @@ footer .redes-sociales {
 footer .redes-sociales img {
     margin: 0 20px;
 }
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
+    header .menu {
+        text-align: center;
+        
+    }
+    .main .trabalhos .container-trabalhos .trabalho {
+         width: 46%;
+     }
+}
+
+@media screen and (max-width: 500px) {
+    header .container-text .texto .nome {
+        font-size: 35px;
+    }
+    header .container-text .texto .profesion {
+        font-size: 18px;
+    }
+
+    footer .redes-sociales .container {
+        flex-wrap: wrap;
+        padding: 20px 0;
+        
+    }
+}
+@media screen and (max-width: 360px){
+    header .menu {
+        font-size: 10px;
+        text-align: center;
+        ;
+        
+    }
+   
+}

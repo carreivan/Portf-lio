@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,
+wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/normalize.css">
+
+
     
 </head>
 
@@ -13,14 +21,120 @@
     <header>
         <div class="container">
             <nav class="menu">
-                <a href="#">Home</a>
-                <a href="#">Sobre Mim</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contata-Me</a>
+                <!-- <a href="#">Home</a> -->
+                <a href="#sobre-mi">Sobre Mim</a>
+                <a href="#trabalhos-ult">Portfolio</a>
+                <a href="#contato">Contato</a>
             </nav>
+            <div class="container-text">
+            <div class="texto">
+                <h1 class="nome">Iván Carreño</h1>
+                <h2 class="profesion">Desenvolvedor Web Full Stack</h2>
+            </div>
+        </div>
         </div>
     </header>
     
+    <section class="main">   
+
+        <section class="sobre-min">
+            <div class="container">
+            <div class="img-perfil">
+                <img class="eu" src="img/wu 2.jpeg" width="200px" height="" alt="">
+            </div>
+            <div class="texto">
+                <h3 id="sobre-mi" class="titulo">Sobre Mim</h3>
+                <p>
+                Sou uma pessoa apaixonada pelo mundo da tecnologia,
+                atualmente estou estudando <span> desenvolvimento web full stack </span> na Toti, 
+                Também estou cursando o primeiro semestre da carreira Analise e desenvolvimento de sistemas  na Universidade Cruzeiro do Sul 
+                para poder atingir os objetivos de ser um profissional da área de tecnologia, Uma das minhas características é que sou uma 
+                pessoa responsável, ativa,diligente, pontual e com objetivos claros, graças às minhas convicções tenho conseguido dar o meu
+                melhor nas tarefas a realizar nos meus trabalhos.
+                </p>
+            </div>
+        </div>
+        </section>
+
+
+            <section class="trabalhos">
+                <div class="container">
+                    <h3 id="trabalhos-ult" class="titulo"> Últimos Trabalhos</h3>
+                    <p class="description-trabalhos">
+                        Esta área está em desenvolvimento pois não fiz nenhum projeto até agora,
+                     mas o objetivo é que ao longo do curso eu possa fazer vários por conta 
+                     própria para poder agregar ao meu portfólio para o qual farei uma 
+                      simulação de trabalhos.
+                    </p>
+                    <div class="container-trabalhos">
+                        <div class="trabalho">
+                            <div class="fotos">
+                                <img src="img/trabalho2.jpg" alt="trabalho em progresso">
+                            </div>
+                            <div class="description">
+                                <p class="nome">trabalho em progresso</p>
+                            </div>
+                            </div>
+                            <div class="trabalho">
+                                <div class="fotos">
+                                    <img src="img/trabalho2.jpg" alt="trabalho em progresso">
+                                </div>
+                                <div class="description">
+                                    <p class="nome">trabalho em progresso</p>
+                                </div>
+                            </div>
+                                <div class="trabalho">
+                                <div class="fotos">
+                                    <img src="img/trabalho2.jpg" alt="trabalho em progresso">
+                                    </div>
+                                    <div class="description">
+                                        <p class="nome">trabalho em progresso</p>
+                                 </div>
+                                </div>
+                                 <div class="trabalho">
+                                 <div class="fotos">
+                                    <img src="img/trabalho2.jpg" alt="trabalho em progresso">
+                                 </div>
+                                 <div class="description">
+                                            <p class="nome">trabalho em progresso</p>
+                                 </div>
+                                </div>
+                                       
+                                           
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+    </section>
+
+    <footer>
+        <section class="contato"></section>
+            <div class="container">
+                <h3 id="contato" class="titulo-footer">Contato</h3>
+                <form class="formulario" action="">
+
+                    <input class="focus" type="text" placeholder="Nome" name="Nome" required>
+                    <input type="email" placeholder="E-Mail" name="email" required>
+                    <textarea name="Mensagem" placeholder="Mensagen"></textarea>
+                    <input class="button" type="submit" value="Enviar">
+                
+                </form>
+            </div>
+        </section>
+             
+       
+        <section class="redes-sociales">
+            <div class="container">
+
+                <a href="#" class="Facebook"><img width="40px"  src="img/facebook.png"  alt=""></a>
+                <a href="#" class="Linkdin"><img width="40px"   src="img/linkedin.png"  alt=""></a>
+                <a href="#"  class="Github"><img width="40px"   src="img/github.png"    alt=""></a>
+                <a href="#" class="instagram"><img width="40px" src="img/instagram.png" alt=""></a> 
+            
+            </div>
+        </section>
+    </footer>
 
 
 
@@ -40,168 +154,3 @@
 
 </body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
-    <div class="nav">
-        <header>
-            <nav class="navegaçao">
-                
-                <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#sobre">Sobre Mim</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#contato">Contata-Me</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
-       <div class="imagen"> <img class="img" src="img/eu.jpeg" width="150" alt="Imagen temporal ela vai ser modificada logo">
-</div>
-   <div> 
-       <h1>Iván Jesús Carreño Aguilera</h1> </div>
-    <div>
-      
-    </div>
-    <div>
-        <h2>Desenvolvedor Web Full Stack</h2>
-    </div>
-
-    <main>
-        <article>
-            <h2 id="sobre">Sobre Mim</h2>
-
-             <p> Sou uma pessoa apaixonada pelo mundo da tecnologia,
-                atualmente estou estudando desenvolvimento web full stack na Toti, 
-                Também estou cursando o primeiro semestre da carreira Analise e desenvolvimento de sistemas  na Universidade Cruzeiro do Sul 
-                para poder atingir os objetivos de ser um profissional da área de tecnologia, Uma das minhas características é que sou uma 
-                pessoa responsável, ativa,diligente, pontual e com objetivos claros, graças às minhas convicções tenho conseguido dar o meu
-                melhor nas tarefas a realizar nos meus trabalhos
-            
-                
-            </p>
-        </article>
-
-        
-        <h2 id="estudos">Estudos e Objetivos</h2>
-         <article>
-            <p>
-                Fiz alguns cursos de programação por conta própia nos quais aprendi as tecnologias de HTML5, CSS3, JAVASCRIPT
-                Atualmente estou em um curso na instituição TOTI em que estou aprendendo : Introduçao a Programaçao,
-                Versionamento de codigo GIT, HTML5, CSS3,JAVASCRIPT, REAT+API, NODEJS,BANCO DE DADOS + SQLITE, GERENCIAMENTO DE PROJETOS.
-                Eu tambem estou estudando na Universidade Cruzeiro do Sul Analise e desenvolvimento de sistemas.    
-    
-            </p>
-                
-            <p>
-                Meu objetivo na área de tecnologia é poder receber treinamento de qualidade o que me permite entrar na área de 
-                trabalho no Brasil a fim de obter mais experiências que possam enriquecer meus conhecimentos e habilidades, como futuro 
-                programador web full stack me dando a oportunidade de participar de vários projetos que geram experiências e me ajudam 
-                a atingir o objetivo no futuro de ser um programador sênior.
-
-            </p>
-
-        </article>
-
-
-            <h2>Habilidades</h2>
-                <div>
-                    <img src="img/git.png"      width="150"  alt="GIT">
-                     <img src="img/html-5.png"  width="150"  alt="HTML5">
-                     <img src="img/css-3.png"   width="150"  alt="CSS3">
-                     <img src="img/js.png"      width="150"  alt="JAVASCRIPT">
-                     <br>
-                     <img src="img/react1.png"  width="150"  alt="react">
-                     <img src="img/nodo-js.png" width="150"  alt="NODEJS">
-                     <img src="img/Sqlite.png" width="150"  alt="Sqlite">
-                </div>
-                        <br>
-
-                <h2>Ultimos Trabalhos</h2>
-                     <p>
-                    Esta área está em desenvolvimento pois não fiz nenhum projeto até agora,
-                     mas o objetivo é que ao longo do curso eu possa fazer vários por conta 
-                     própria para poder agregar ao meu portfólio para o qual farei uma 
-                      simulação de trabalhos futuros nesta área.
-                    </p>
-                        <br>
-                        <div>
-                            <img src="img/html-css.png" width="150" alt="imagen">
-                            <h3><a href="#">Pagina web feita no html5 e css3 </a></h3>
-                            <img src="img/js-html-css.png" width="150" alt="">
-                            <h3><a href="#">Página da web feita com html5, css3 e Javascript</a></h3>
-                            <img src="img/loja.png" width="150" alt="">
-                            <h3><a href="#">Realizaçao da uma loja virtual</a></h3>
-                            <img src="img/basedados.jpg" width="150" alt="">
-                            <h3><a href="#">Realizaçao da uma base de dados bancaria </a></h3>
-                            
-
-                        </div>
-
-            <h2 id="contato">Contata-Me</h2>
-
-            <div class="formulario">
-    
-             <form class="" action="#" method="">
-                 <h3>NOME</h3>
-                <input type="text" placeholder="Digite seu nome" name="nome">
-                <h3>NÚMERO DE TELEFONE</h3>
-                <input type="number" placeholder="Digite seu numero de telefone" name="number">
-                <h3>E-MAIL</h3>
-                <input type="email" placeholder="Digite seu endereço de e-mail" name="email">
-                <h3>SUA MENSAGEM</h3>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
-                <input type="submit" value="Enviar" name="" id="">
-             </form>
-            </div>
-    </main>
-    <footer>
-        <p>&#9400 2022 Intellectual Reserve, Inc. Todos os direitos reservados</p>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#PP">LinkedIn</a>
-
-    </footer>
-
-</body> -->
