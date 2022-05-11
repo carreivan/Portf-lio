@@ -113,7 +113,7 @@ text-align: center;
     line-height: 34px;
     margin-bottom: 40px;
     font-weight: 600;
-    color: #445dd1;
+    color: #33415C;
     text-align: center;
 }
 
@@ -165,4 +165,85 @@ text-align: center;
     color: #f2f2f2;
     font-weight: 700;
     margin-bottom: 10px;
+}
+
+/*---Footer---*/
+footer .contato {
+    padding: 60px 0;
+}
+
+.titulo-footer{
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #33415C;
+    text-align: center;
+    
+}
+
+.formulario {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+ .formulario input[type="text"],
+ .formulario input[type="email"],
+ .formulario textarea
+ {
+     border:2px solid #cecece;
+     border-radius: 5px;
+     padding: 15px 20px;
+     font-size: 20px;
+     color: #33415C;
+     
+}
+
+/*.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus {
+ border: 4px solid #0466C8;
+ }*/
+ 
+.formulario input[type="text"],
+ .formulario input[type="email"] {
+     width: 49%;
+     margin-bottom: 15px;
+ }
+
+ .formulario textarea {
+     width: 100%;
+     height: 100px;
+     min-width: 100%;
+     max-width: 100%;
+     min-height: 100px;
+     max-height: 300px;
+     margin-bottom: 15px;
+ }
+
+ .button {
+     margin:auto;
+     background:#33415C ;
+     color: #ffff;
+     border-radius: 3px;
+     padding: 15px 40px;
+     margin-bottom:50px;
+     cursor:pointer;
+ }
+ .button:hover {
+     background:#0466C8 ;
+ }
+
+ footer .redes-sociales .container {
+     display: flex;
+     justify-content: center;
+ }
+footer .redes-sociales {
+    background: #33415C;
+    padding: 40px 0;
+  
+}
+footer .redes-sociales img {
+    margin: 0 20px;
 }
