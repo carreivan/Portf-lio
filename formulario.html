@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Validación de Formulario con Javascript</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+	<div>	
+		<h1 class="titulo">CONTATO</h1>
+	</div>
+	<section>
+		<form action="" class="formulario" id="formulario">
+							<!--CAMPO NOME-->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Nome</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nome completo">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">O Nome só pode conter Letras.</p>
+			</div>
+
+			<!-- Grupo: Correo Electronico -->
+			<div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">E-mail</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">O Email só pode conter letras, números, pontos, @ _  -.</p>
+			</div>
+	                      <!--CAMPO TELEFONO-->
+			<div class="formulario__grupo" id="grupo__telefono">
+				<label for="telefono" class="formulario__label">Telefone</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="11 9352-736-32">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">O telefone só pode conter de 9 - 14 números .</p>
+			</div>
+				
+		
+
+										<!-- CAMPO TEXTAREA-->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Mensagem</label>
+				<div class="formulario__grupo-input">
+					<textarea class="formulario__input" minlength="10"  placeholder="Escreva sua mensagem"  name="" id="mensaje" cols="30" rows="10"></textarea>
+				</div>
+
+				<p class="formulario__input-error">Escriba su mensaje.</p>
+			</div>
+								<!--ERROR GENERAL-->
+		
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Erro:</b>Por favor, preencha o formulário corretamente. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulário enviado com sucesso!</p>
+			</div>
+		</form>
+	</section>
+
+	<script src="javascript/interaçao.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #33415C;
+    word-break: break-all;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+li span {
+    margin: 10px;
+
+}
+
+h1{
+    margin: 20px auto; 
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    width: 90%;
+    max-width: 1000px;
+
+    margin: auto;
+    overflow: hidden;
+} */
