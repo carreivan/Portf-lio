@@ -13,7 +13,6 @@ wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/normalize.css">
 
-
     
 </head>
 
@@ -112,12 +111,20 @@ wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
         <section class="contato"></section>
             <div class="container">
                 <h3 id="contato" class="titulo-footer">Contato</h3>
-                <form class="formulario" action="">
+                <!-- FORMULARIO-->
+                <form class="formulario" name="formulario" id="formulario" action="">
 
-                    <input class="focus" type="text" placeholder="Nome" name="Nome" required>
-                    <input type="email" placeholder="E-Mail" name="email" required>
-                    <textarea name="Mensagem" placeholder="Mensagen"></textarea>
-                    <input class="button" type="submit" value="Enviar">
+                    <input class="focus" id="nombre" type="text" placeholder="Nome" name="nombre" >
+
+                    <input type="email" id="correo" placeholder="E-Mail" name="correo" >
+
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensagen"></textarea>
+
+                    <ul class="container" id="error">
+                        
+                    </ul>
+
+                    <input class="button" id="enviar" type="submit" value="Enviar">
                 
                 </form>
             </div>
@@ -136,21 +143,9 @@ wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
         </section>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="javascript/interaçao.js"></script>
 
 
 
 </body>
-
+</html>
